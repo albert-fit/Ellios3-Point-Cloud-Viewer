@@ -89,7 +89,7 @@ The template used is the "multiple_pointclouds.html" template, which can be foun
 
 ## Contributing
 
-# Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
+### Contributions to this project are welcome! If you'd like to contribute, please follow these steps:
 
 1.Fork the repository.
 2.Create a new branch for your feature or bug fix.
