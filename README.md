@@ -56,15 +56,15 @@ To set up this project locally, follow these steps:
    mkdir Data
    ```
 5. **Option 1 - Use your own data: Download the data from your Ellios3 drone and place it in the Data folder**
-   5.1 Use Inspector4 to download the data from your Ellios3 drone.
-   5.2 Use any video editing software (i.e. Adobe Priemier Pro, Final Cut Pro, etc.) to merge the .MOV files into one .mp4 video file/flight.
-   5.3 Use the PotreeConverter to convert the .las files into a tiled data set. Make sure you save the output of PotreeConverter in a separate folder. You can find more about it here: https://github.com/potree/PotreeConverter.git
-   5.4 Use any plugin to convert the file that ends in flightTraj.csv into a .json or .js file. For this project, I wrote a tool in NodeJS that does exactly that and you can find it here: https://github.com/albert-fit/Ellios3-liveTraj.csv-to-JSON.git
-   5.5 Take the compiled .mp4 video file, the folder with the tiled point cloud and the .json or .js file and place them in the Data folder.
+   5.1 Use Inspector4 to download the data from your Ellios3 drone.  
+   5.2 Use any video editing software (i.e. Adobe Priemier Pro, Final Cut Pro, etc.) to merge the .MOV files into one .mp4 video file/flight.  
+   5.3 Use the PotreeConverter to convert the .las files into a tiled data set. Make sure you save the output of PotreeConverter in a separate folder. You can find more about it here: https://github.com/potree/PotreeConverter.git  
+   5.4 Use any plugin to convert the file that ends in flightTraj.csv into a .json or .js file. For this project, I wrote a tool in NodeJS that does exactly that and you can find it here: https://github.com/albert-fit/Ellios3-liveTraj.csv-to-JSON.git  
+   5.5 Take the compiled .mp4 video file, the folder with the tiled point cloud and the .json or .js file and place them in the Data folder.  
 
 6. **Option 2 - Use the demo data: Download the demo data from the live demo and place it in the Data folder**
-   You can download the data used for the live demo from here: https://www.dropbox.com/sh/qosm46gvex71e0d/AADNPWG6vDcQMdvHOqbH5WIza?dl=0
-   Copy that data into the Data folder.
+   You can download the data used for the live demo from here: https://www.dropbox.com/sh/qosm46gvex71e0d/AADNPWG6vDcQMdvHOqbH5WIza?dl=0  
+   Copy that data into the Data folder.  
 
 7. **Run the project**
    If you use Visual Studio Code, you can use the live server utility on the HTML. Otherwise, you can use any other server to run the project.
